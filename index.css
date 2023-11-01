@@ -5,7 +5,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 header{display: flex;
 height: 60px;
-background-color: black;
+background-color: #131921;
 color: white;
 justify-content: space-evenly;
 }
@@ -27,14 +27,19 @@ background-size: cover;
 .india{font-size: 14px;}
 /* a */
 .searchbar{display: flex;justify-content: center;align-items: center;width: 700px;height: 60px;}
-.searchicon{background-color: #F7A610;color: black;height: 38px;width: 45px;display: flex;justify-content: center;align-items: center;border-top-right-radius: 4px;border-bottom-right-radius: 4px;}
+.searchicon{background-color: #fdbd69;color: black;height: 38px;width: 45px;display: flex;justify-content: center;align-items: center;border-top-right-radius: 4px;border-bottom-right-radius: 4px;}
 .searchicon:hover{cursor: pointer;}
 .select{width: 45px;height: 40px;border-top-left-radius: 4px;border-bottom-left-radius: 4px;}
 .select:hover{cursor: pointer;}
 .search{width: 600px;height: 36px;font-size: 16px;}
 /* a */
 .language{display: flex;justify-content: center;align-items: center;width: 75px;height: 50px;}
-.selectlanguage{width: 40px;height: 20px;position: relative;top: 2px; border-radius: 4px;}
+.selectlanguage{width: 40px;height: 20px;position: relative;top: 2px; border-radius: 4px;
+
+
+
+
+}
 /* a */
 .signin{height: 50px;width: 132px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;align-content: center;}
 .signin:hover{border:2px solid white;}
@@ -78,15 +83,24 @@ background-size: cover;
 
 .image{background-image: url(./Amazon\ Clone\ \(Resources\)/hero_image.jpg);
 background-size: cover;
-height: 320px;
+height: 400px;
 }
-.w{width: 1200px;height: 40px;color: black;background-color: white;position: absolute;bottom: 250px;left: 80px;
+.w{width: 1450px;height: 40px;color: black;background-color: white;position: relative;
+    top: 270px;left: 25px;
+    box-shadow: black;
 display: flex;align-items: center;justify-content: center;
 }
 /* a */
 
-.parentbox{width: 1350px;height: 900px;background-color: white;display: flex;justify-content: space-around;flex-wrap: wrap;background-color: #e0e2e9;
-padding-top: 12px;}
+.parentbox{width: 1350px;
+    height: 900px;background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;background-color: #e0e2e9;
+padding-top: 12px;
+padding-left: 90px;
+
+}
 .boxes{width: 300px;height: 420px;background-color: white;
 font-size: 22px;
 display: flex;justify-content: center; align-items: center; flex-wrap: wrap; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -102,6 +116,7 @@ display: flex;justify-content: center; align-items: center; flex-wrap: wrap; fon
 .i{background-image: url(./Amazon\ Clone\ \(Resources\)/box6_image.jpg);}
 .im{background-image: url(./Amazon\ Clone\ \(Resources\)/box7_image.jpg);}
 .ima{background-image: url(./Amazon\ Clone\ \(Resources\)/box8_image.jpg);}
+
 
 .shopnow{font-size: 12px;}
 
@@ -124,7 +139,9 @@ li{color: white;text-decoration: none;color: white;margin-top: 8px;position: rel
 
 
 h3{position: relative;left: 10px;}
-
+.shopnow{
+    font-size: 20px;
+}
 
 
 .footer4{background-color: #232F3E;height: 100px;display: flex;flex-direction: column;justify-content: center;align-items: center;color: white;}
