@@ -13,7 +13,6 @@ justify-content: space-evenly;
 width: 113px;
 background-image:url(./Amazon\ Clone\ \(Resources\)/amazon_logo.png);
 background-size: cover;
-
 }
 .amazonlogoborder{border:2px solid transparent;height: 50px;
     width: 100px;padding-right: 10px;
