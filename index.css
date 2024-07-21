@@ -245,18 +245,22 @@ align-items: center;
 }
 
 .boxes {
-    width: 300px;
-    height: 420px;
+    width: 320px;
+    height: 410px;
     margin: 20px;
     background-color: white;
     font-size: 22px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+.boxes a{
+    font-size: 20px;
+    margin-top: 4px;
+}
 #photos {
     width: 260px;
     height: 310px;
