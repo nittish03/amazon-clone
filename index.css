@@ -26,6 +26,9 @@
     background-image:url(./Amazon\ Clone\ \(Resources\)/amazon_logo.png); 
 }
 .image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background-image: url(./Amazon\ Clone\ \(Resources\)/hero_image.jpg); 
 }
 .logo2{
